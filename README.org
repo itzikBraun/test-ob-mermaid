@@ -1,0 +1,18 @@
+#+TITLE: Test ob-mermaid
+
+This repository is for testing [[https://github.com/arnm/ob-mermaid][ob-mermaid]].
+It was originally created to test package changes.
+
+* Install mermaid.cli
+
+=npm install=
+
+* Usage
+
+- Open [[./mermaid.org][mermaid.org]].
+- Edit the mermaid text
+- Evaluate code block with =C-c C-c=
+- Open the output [[./test.png][file]]
+
+You can tweak the output image using the different code block headers.
+You can also tweak the configuration files.

@@ -1,0 +1,17 @@
+#+TITLE: Test ob-mermaid
+
+#+HEADER: :css-file ./style.css
+#+HEADER: :width "900" :height "800"
+#+HEADER: :background-color blue :theme dark
+#+HEADER: :mermaid-config-file ./config.json
+#+HEADER: :puppeteer-config-file ./puppeteer-config.json
+#+HEADER: :file ./test.png
+#+BEGIN_SRC mermaid
+graph TD
+ A--Something long that should be visible-->B[Works!]
+ B-->|Another long piece of text, but this time really long!|C[Something]
+ C--Going back-->A
+#+END_SRC
+
+#+RESULTS:
+[[file:./test.png]]
